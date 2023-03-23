@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "taro/react",
+    "@chuhoman"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-commonjs": "off",
+    "@typescript-eslint/no-require-imports": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off"
+  }
+}

@@ -28,8 +28,7 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint . --cache --fix"
   },
   "browserslist": [
     "last 3 versions",
@@ -59,7 +58,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
-    "@chuhoman/eslint-config": "^0.0.10",
+    "@chuhoman/eslint-config-react": "^0.1.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@tarojs/cli": "3.6.2",
     "@tarojs/webpack5-runner": "3.6.2",
@@ -70,6 +69,7 @@
     "babel-preset-taro": "3.6.2",
     "eslint": "^8.36.0",
     "eslint-config-taro": "3.6.2",
+    "eslint-define-config": "^1.17.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
